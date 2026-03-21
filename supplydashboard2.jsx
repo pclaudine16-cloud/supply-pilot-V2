@@ -9,17 +9,18 @@
  * Author: SupplyPilot AI · v3.0 · 2026-03-16
  */
 
-import {
+const {
   useState, useEffect, useContext, createContext,
   useCallback, useMemo, useRef, useReducer
-} from "react";
-import {
+} = React;
+
+const {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, PieChart, Pie, Cell, ComposedChart,
   Line, Legend, RadarChart, Radar, PolarGrid,
   PolarAngleAxis, LineChart, AreaChart, Area, ScatterChart,
   Scatter, ZAxis, ReferenceLine
-} from "recharts";
+} = Recharts;
 
 // ─────────────────────────────────────────────
 // 1. DONNÉES STATIQUES
