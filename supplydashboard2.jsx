@@ -4280,3 +4280,7 @@ export default function App(){
     </ThemeCtx.Provider>
   );
 }
+ReactDOM.render(
+  <App />, 
+  document.getElementById('root')
+);
