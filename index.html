@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>Supply Pilot v2</title>
-    <!-- React et ReactDOM -->
+    <title>Supply Pilot Dashboard</title>
+
+    <!-- React -->
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <!-- Babel pour interpréter le JSX -->
+
+    <!-- Babel pour lire le JSX -->
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f4f6f9;
+      }
+    </style>
   </head>
+
   <body>
     <div id="root"></div>
 
-    <!-- Ton fichier JSX -->
+    <!-- IMPORTANT : nom exact de ton fichier -->
     <script type="text/babel" src="supplydashboard2.jsx"></script>
   </body>
 </html>
